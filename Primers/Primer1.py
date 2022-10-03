@@ -13,7 +13,7 @@ def get_worker():
     year = int(input("Год поступления? "))
 
     # Создать словарь.
-    return{
+    return {
         'name': name,
         'post': post,
         'year': year,
