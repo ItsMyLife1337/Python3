@@ -5,7 +5,9 @@ import sys
 from datetime import date
 
 def get_worker():
-    """Запросить данные о работнике. """
+    """
+    Запросить данные о работнике.
+    """
     name = input("Фамилия и инициалы? ")
     post = input("Должность? ")
     year = int(input("Год поступления? "))
