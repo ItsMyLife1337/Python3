@@ -4,6 +4,7 @@
 import sys
 from datetime import date
 
+
 def get_worker():
     """
     Запросить данные о работнике.
@@ -18,6 +19,7 @@ def get_worker():
         'post': post,
         'year': year,
     }
+
 
 def display_workers(staff):
     """
@@ -58,6 +60,7 @@ def display_workers(staff):
     else:
         print("Список работников пуст.")
 
+
 def select_workers(staff, period):
     """
     Выбрать работников с заданным стажем.
@@ -73,6 +76,7 @@ def select_workers(staff, period):
 
     # Возвратить список выбранных работников.
     return result
+
 
 def main():
     """
@@ -126,6 +130,7 @@ def main():
 
         else:
             print(f"Неизвестная команда {command}", file=sys.stderr)
+
 
 if __name__ == '__main__':
     main()
